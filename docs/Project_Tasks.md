@@ -8,12 +8,12 @@
 
 ### 1. Core Data & CRUD (FR)
 #### Asset Management
-- [ ] ออกแบบฟังก์ชัน getApplianceList() : ดึงข้อมูลอุปกรณ์ทั้งหมดจากฐานข้อมูล
-- [ ] ออกแบบฟังก์ชัน addAppliance(data) : เพิ่มอุปกรณ์ใหม่
-- [ ] ออกแบบฟังก์ชัน updateAppliance(id, data) : แก้ไขข้อมูลอุปกรณ์
-- [ ] ออกแบบฟังก์ชัน deleteAppliance(id) : ลบอุปกรณ์
-- [ ] ออกแบบฟังก์ชัน getApplianceById(id) : ดึงข้อมูลอุปกรณ์รายตัว
-- [ ] เขียน unit test สำหรับแต่ละฟังก์ชันข้างต้น
+- [x] ออกแบบฟังก์ชัน getApplianceList() : ดึงข้อมูลอุปกรณ์ทั้งหมดจากฐานข้อมูล
+- [x] ออกแบบฟังก์ชัน addAppliance(data) : เพิ่มอุปกรณ์ใหม่
+- [x] ออกแบบฟังก์ชัน updateAppliance(id, data) : แก้ไขข้อมูลอุปกรณ์
+- [x] ออกแบบฟังก์ชัน deleteAppliance(id) : ลบอุปกรณ์
+- [x] ออกแบบฟังก์ชัน getApplianceById(id) : ดึงข้อมูลอุปกรณ์รายตัว
+- [x] เขียน unit test สำหรับแต่ละฟังก์ชันข้างต้น
 
 #### Task Template Management
 - [ ] ออกแบบฟังก์ชัน getTaskTemplates(applianceId) : ดึง Task Template ของอุปกรณ์
@@ -68,7 +68,7 @@
 - [ ] ออกแบบฟังก์ชัน deployToGitHubPages() : Deploy ด้วย gh-pages
 
 ### 8. Usability & UI/UX
-- [ ] ออกแบบฟังก์ชัน applyTailwindResponsive() : ใช้ Tailwind จัด Responsive
+- [x] ออกแบบฟังก์ชัน applyTailwindResponsive() : ใช้ Tailwind จัด Responsive (เริ่มต้นหน้า Appliance แล้ว)
 - [ ] ออกแบบฟังก์ชัน useShadcnUIComponents() : ใช้ shadcn/ui กับ Component
 - [ ] ออกแบบฟังก์ชัน testMobileTabletUI() : ทดสอบ UI บนอุปกรณ์
 
